@@ -39,6 +39,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"
           href={"https://github.com/Krinali4"}
         >
           <Github
@@ -48,7 +49,7 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{scale:0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.2 }}
@@ -56,6 +57,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"
           href={""}
         >
           <Twitter
@@ -64,8 +66,8 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
-      <motion.div
+      </motion.div> */}
+      {/* <motion.div
         initial={{scale:0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.4 }}
@@ -73,6 +75,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"
           href={""}
         >
           <Facebook
@@ -81,8 +84,8 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
-      <motion.div
+      </motion.div> */}
+      {/* <motion.div
         initial={{scale:0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.6 }}
@@ -90,6 +93,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
+          rel="noreferrer"
           href={"https://youtube.com"}
         >
           <YouTube
@@ -98,7 +102,7 @@ const SocialIcons = (props) => {
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
           />
         </a>
-      </motion.div>
+      </motion.div> */}
 
       <Line
         color={props.theme}
