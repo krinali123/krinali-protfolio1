@@ -66,7 +66,6 @@ justify-content: space-evenly;
 
 }`
 
-
 const Intro = () => {
     return (
         <Box
